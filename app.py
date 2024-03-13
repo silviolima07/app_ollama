@@ -7,9 +7,9 @@ import time
 try:
     # Chame uma função da biblioteca
     result = ollama.list()
-    print("A biblioteca ollama está funcionando corretamente.")
+    st.write("A biblioteca ollama está funcionando corretamente.")
 except Exception as e:
-    print(f"Erro ao chamar a função: {e}")
+    st.write(f"Erro ao chamar a função: {e}")
 
 
 #st.title("TESTE2")
